@@ -16,13 +16,16 @@ format:
     cite-method: biblatex
     biblio-style: apa
     keep-tex: false
-    pdf-engine: xelatex
   html:
     toc: true
     toc-depth: 3
     number-sections: true
     code-fold: true
+    code-summary: "Show code"
+  docx: default
 bibliography: references.bib
+link-citations: true
+csl: apa.csl
 execute:
   warning: false
   message: false
